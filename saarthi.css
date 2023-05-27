@@ -307,3 +307,54 @@ body, h1, h2, p, ul, li {
   box-shadow:  19px 19px 37px #b54343,
               -19px -19px 37px #ff7979;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.container .red {
+  background-color: #ff5e5e;
+}
+
+.container .blue {
+  background-color: #ff5e5e;
+}
+
+.container .green {
+  background-color: #ff5e5e;
+}
+
+.container .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;
+}
+.colour{
+  color: #ff5e5e;
+}
+.container .card p.tip {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.container .card p.second-text {
+  font-size: .7em;
+}
+
+.container .card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.container:hover > .card:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
