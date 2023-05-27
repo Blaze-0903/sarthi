@@ -28,31 +28,51 @@
         <input type="date" placeholder="Date">
         <input type="time" placeholder="Time">
         <textarea placeholder="Additional Comments"></textarea>
-        <button type="submit"><a href="./pricing.html">Submit Booking</a></button>
+        <button type="button" onclick="openPopup()">Submit Booking</button>
       </form>
+
+      <div class="popup" id="popup">
+        <form class="plan-chooser">
+          <div class="header">
+          <span class="title">Choose your plan</span>
+          <p class="desc">Amet minim mollit non deserunt ullamco est sit .</p>
+          </div>
+          <div class="plan-option">
+              <input value="free" id="free" name="plan" type="radio">
+            <label for="free">
+              <div class="plan-info">
+              <span class="plan-cost">$0</span>
+              <span class="plan-name">Try Free</span>
+              </div>
+            </label>
+          </div>
+          <div class="plan-option">
+              <input value="monthly" id="monthly" name="plan" type="radio">
+            <label for="monthly">
+              <div class="plan-info">
+              <span class="plan-cost">$29/month</span>
+              <span class="plan-name">Monthly plan</span>
+              </div>
+            </label>
+          </div>
+          <div class="plan-option">
+              <input value="annual" id="annual" name="plan" type="radio">
+            <label for="annual">
+               <div class="plan-info">
+              <span class="plan-cost">$19/month</span>
+              <span class="plan-name">$228 billed in a year</span>
+              </div>
+              <span class="reduction"> Save 20% </span>
+            </label>
+          </div>
+                    <a href="driverprofile.html" title="" class="choose-btn"> Start </a>
+        
+        </form>
+        
+      </div>
     </div>
   </section>
 
-  <section id="pricing">
-    <div class="container">
-      <h2>Our Pricing</h2>
-      <div class="pricing-card">
-        <h3>Service 1</h3>
-        <p>Price: $X.XX per hour</p>
-        <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="pricing-card">
-        <h3>Service 2</h3>
-        <p>Price: $X.XX per hour</p>
-        <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="pricing-card">
-        <h3>Service 3</h3>
-        <p>Price: $X.XX per hour</p>
-        <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-    </div>
-  </section>
 
   <footer>
     <p>&copy; 2023 Sarthi - Female Driver Rental</p>
