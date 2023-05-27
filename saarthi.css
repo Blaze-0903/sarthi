@@ -291,15 +291,40 @@ body, h1, h2, p, ul, li {
   width: 800px;
   height: 100px;
 }
-.button{
-  border:0;
-  font-size: 20px;
-  padding:20px;
-  border-radius: 10px;
-  background: linear-gradient(145deg, #e65555, #ff6565);
-  box-shadow:  19px 19px 37px #b54343,
-               -19px -19px 37px #ff7979;
+ .left img{
+  top: 300px;
+  width:300px;
+  height:70px;
+  float:left;
+  border:1px solid white;
 }
+
+.right{
+  width: 600px;
+  float:right;
+}
+.team{
+  font-size: large;
+  float: left;
+}
+.team ul{
+  list-style: none;
+  text-align: left;
+}
+.right{
+  float:right;
+  top:0px
+}
+.right .rightcon{
+  display:flex;
+  text-align: right;
+  top :100px;
+  float: right;
+  padding: 10px;
+  font-size: 40px;
+}
+<<<<<<< HEAD
+=======
 .button:hover{
   font-size: 25px;
   background: linear-gradient(145deg, #ff6565, #e65555);
@@ -411,3 +436,4 @@ body, h1, h2, p, ul, li {
   content: "Experience: 3years";
   content:"Rating: 4.5/5.0";
 } 
+>>>>>>> cab33f01cf5e723f833079ff943228a60a1bde9d
