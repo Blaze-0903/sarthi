@@ -29,7 +29,7 @@
           <div class="flip-card-front">
               <p class="title">Image</p>
           </div>
-          <div class="flip-card-back">
+          <div class="flip-card-back" onclick="popopen()">
               <p class="title">Roshni Raut</p>
               <p>Experience: 3yrs</p>
               <p>Rating: 4.5/5</p>
@@ -37,12 +37,24 @@
           </div>
       </div>
   </div>
+  <div class="pop" id="pop">
+    <img src="Tick.png">
+    <h2>Your Driver is Booked!</h2>
+    <p>Thank you for choosing Sarthi!</p>
+    <br><br>
+    <a href="saarthi.html" class="popbutton">Home</a>
+  </div>
   </section>
 
   <footer>
     <p>&copy; 2023 Sarthi - Female Driver Rental</p>
   </footer>
 
-  <script src="saarthi.js"></script>
+  <script>
+    let popup=document.getElementById("pop");
+  function popopen(){
+    popup.classList.add("pop-open");
+  }
+  </script>
 </body>
 </html>
