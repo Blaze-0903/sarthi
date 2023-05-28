@@ -389,6 +389,7 @@ body, h1, h2, p, ul, li {
   perspective: 1000px;
   font-family: sans-serif;
   cursor: pointer;
+  position: absolute;
 }
 
 .title {
