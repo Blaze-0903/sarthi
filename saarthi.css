@@ -356,7 +356,14 @@ body, h1, h2, p, ul, li {
   perspective: 1000px;
   font-family: sans-serif;
   cursor: pointer;
-  position: absolute;
+}
+.flip-card1 {
+  background-color: transparent;
+  width: 190px;
+  height: 254px;
+  perspective: 1000px;
+  font-family: sans-serif;
+  cursor: pointer;
 }
 
 .title {
@@ -557,4 +564,8 @@ body, h1, h2, p, ul, li {
 .right span{
   color :#e53c3c;
   cursor: pointer;
+}
+.drivercd{
+  display: flex;
+  justify-content: space-around;
 }
