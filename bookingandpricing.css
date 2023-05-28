@@ -231,7 +231,7 @@ body, h1, h2, h3, p, ul, li, input, textarea, button {
   }
   
   .plan-option input:checked + label {
-    border-color: rgba(37, 99, 235, 1);
+    border-color: #ff5e5e;
   }
   
   .choose-btn {
