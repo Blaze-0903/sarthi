@@ -291,39 +291,6 @@ body, h1, h2, p, ul, li {
   width: 800px;
   height: 100px;
 }
- .left img{
-  top: 300px;
-  width:300px;
-  height:70px;
-  float:left;
-  border:1px solid white;
-}
-
-.right{
-  width: 600px;
-  float:right;
-}
-.team{
-  font-size: large;
-  float: left;
-}
-.team ul{
-  list-style: none;
-  text-align: left;
-}
-.right{
-  float:right;
-  top:0px
-}
-.right .rightcon{
-  display:flex;
-  text-align: right;
-  top :100px;
-  float: right;
-  padding: 10px;
-  font-size: 40px;
-}
-
 .button:hover{
   font-size: 25px;
   background: linear-gradient(145deg, #ff6565, #e65555);
@@ -536,4 +503,58 @@ body, h1, h2, p, ul, li {
   visibility: visible;
   top: 50%;
   transform: translate(-50%,-50%) scale(1);
+}
+/* footer area */
+ .logo{
+  width:50%;
+  height: 70px;
+}
+
+.left{
+  width:50%;
+  float:left;
+}
+.right{
+  width:50%;
+  float:right;
+}
+.right .rightcon{
+  font-size:40px;
+  color:black;
+}
+.right .rightcon .fa-linkedin:hover{
+  font-size:49px;
+  color:lightseagreen;
+}
+.right .rightcon .fa-facebook:hover{
+  font-size:49px;
+  color:lightseagreen;
+}
+.right .rightcon .fa-twitter:hover{
+  font-size:49px;
+  color:lightseagreen;
+}
+.right .rightcon .fa-github:hover{
+  font-size:49px;
+  color:lightseagreen;
+}
+.right .rightwrt{
+  font-size:20px;
+  color:black;
+}
+.right a{
+  text-decoration: none;
+  color:black;
+  font-family: cursive;
+  font-style: italic;
+}
+.right{
+  text-align: left;
+}
+.right a:hover{
+  font-size:25px;
+}
+.right span{
+  color :#e53c3c;
+  cursor: pointer;
 }
