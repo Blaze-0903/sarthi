@@ -127,7 +127,7 @@ body, h1, h2, h3, p, ul, li, input, textarea, button {
   }
   .open-popup{
     visibility: visible;
-    top: 75%;
+    top: 50%;
     transform: translate(-50%,-50%) scale(1);
   }
   .plan-chooser {
