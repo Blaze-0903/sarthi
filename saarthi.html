@@ -37,29 +37,6 @@
     <center><img src="./sarthihowitwork.png" alt="image" width="90%" height="100%" class="image"></center>
     <center><img src="./homepagelast_page-0001.jpg" alt="image" width="100%" height="100%" class="image"></center>
   </section>
-
-  <!-- <section id="services">
-    <center><h2>Our Services</h2></center>
-    <div class="container">
-      <div class="services-list">
-        <div align="left" class="service">
-          <img src="images/chauffeur.jpg" alt="Chauffeur Service">
-          <h3>Chauffeur Service</h3>
-          <p>Hire a professional female chauffeur for a luxurious and comfortable travel experience.</p>
-        </div>
-        <div align="center" class="service">
-          <img src="images/personal-driver.jpg" alt="Personal Driver">
-          <h3>Personal Driver</h3>
-          <p>Get a dedicated female driver for your personal transportation needs, ensuring convenience and safety.</p>
-        </div>
-        <div align="right" class="service">
-          <img src="images/event-driver.jpg" alt="Event Driver">
-          <h3>Event Driver</h3>
-          <p>Make your special occasions memorable with our experienced female event drivers.</p>
-        </div>
-      </div>
-    </div>
-  </section> -->
   <footer id="contact">
    <div class="left">
     <img src="./logo.png" alt="Sarthi Logo" class="logo">
@@ -70,9 +47,30 @@
       <li> Oshin : Own pain Experience in training </li>
       <li> Sujal : Technocrat Exposure to building platforms</li>
      </ul>
-     <button class="btn" onclick="comment()">
+     <button class="btn" onclick="opencommentpop()">
       Leave a comment..
     </button>
+    <div class="commentpop" id="commentpop">
+      <div class="card1">
+        <span class="title">Leave a Comment</span>
+        <form class="form">
+          <div class="group">
+          <input  type="text" required="">
+          <label for="name">Name</label>
+          </div>
+      <div class="group">
+          <input type="email" id="email" name="email" required="">
+          <label for="email">Email</label>
+          </div>
+      <div class="group">
+          <textarea id="comment" name="comment" rows="5" required=""></textarea>
+          <label for="comment">Comment</label>
+      </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+  
+    </div>
     </div>
    </div>
    <br>
@@ -100,8 +98,15 @@
       </div>
     </div>
   </div>
+
   </footer>
   <script src="saarthi.js"></script>
   <script src="https://kit.fontawesome.com/4f928f5798.js" crossorigin="anonymous"></script>
+  <script>
+    let popup = document.getElementById("commentpop");
+    function opencommentpop(){
+      popup.classList.add("open-comment");
+    }
+  </script>
 </body>
 </html>
